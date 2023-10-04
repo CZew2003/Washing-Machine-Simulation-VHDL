@@ -1,0 +1,2009 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="3.8.0" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v3.8.0(https://github.com/logisim-evolution/).
+
+  <lib desc="#Wiring" name="0">
+    <tool name="Pin">
+      <a name="appearance" val="classic"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4"/>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#TTL" name="6"/>
+  <lib desc="#TCL" name="7"/>
+  <lib desc="#Base" name="8"/>
+  <lib desc="#BFH-Praktika" name="9"/>
+  <lib desc="#Input/Output-Extra" name="10"/>
+  <lib desc="#Soc" name="11"/>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="8" map="Button2" name="Poke Tool"/>
+    <tool lib="8" map="Button3" name="Menu Tool"/>
+    <tool lib="8" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="8" name="Poke Tool"/>
+    <tool lib="8" name="Edit Tool"/>
+    <tool lib="8" name="Wiring Tool"/>
+    <tool lib="8" name="Text Tool"/>
+    <sep/>
+    <tool lib="0" name="Pin"/>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </tool>
+    <sep/>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+    <tool lib="1" name="XOR Gate"/>
+    <tool lib="1" name="NAND Gate"/>
+    <tool lib="1" name="NOR Gate"/>
+    <sep/>
+    <tool lib="4" name="D Flip-Flop"/>
+    <tool lib="4" name="Register"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="main"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="downloadBoard" val="BASYS3"/>
+    <a name="downloadFrequency" val="4.0"/>
+    <a name="simulationFrequency" val="2.0"/>
+    <boardmap boardname="BASYS3">
+      <mc key="/Input_3" map="647,323"/>
+      <mc key="/Input_4" map="321,237"/>
+      <mc key="/Input_bus_1" pmap="571_323_0,535_323_0,497_323_0,456_323_0,417_323_0,382_323_0,341_323_0"/>
+      <mc key="/Input_bus_2" pmap="268_323_0,228_323_0,192_323_0,154_323_0,117_323_0,78_323_0"/>
+      <mc key="/Output_bus_1" pmap="649_295_0,612_295_0,577_295_0,538_295_0,499_295_0,465_295_0,425_295_0"/>
+    </boardmap>
+    <comp lib="0" loc="(240,130)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(240,150)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(460,130)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp loc="(460,130)" name="counter_10min">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+  </circuit>
+  <circuit name="proiectv3">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="proiectv3"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="downloadBoard" val="BASYS3"/>
+    <a name="simulationFrequency" val="2.0"/>
+    <boardmap boardname="BASYS3">
+      <mc key="/ADDITIONAL_RINSE" map="203,295"/>
+      <mc key="/ADDITIONAL_RINSE_OPTION" map="278,295"/>
+      <mc key="/ANOD" pmap="273_234_0,225_234_0,180_234_0,130_234_0"/>
+      <mc key="/ANTIALLERGEN" map="228,323"/>
+      <mc key="/CATOD" pmap="136_245_0,154_248_0,154_262_0,136_274_0,130_263_0,130_249_0,138_258_0"/>
+      <mc key="/CENTRIFUGE" map="241,295"/>
+      <mc key="/CLK" map="321,237"/>
+      <mc key="/CLOSE_OPEN_DOOR" map="647,323"/>
+      <mc key="/DARK_CLOTHES" map="154,323"/>
+      <mc key="/DIRTY_LAUNDRY" map="192,323"/>
+      <mc key="/DOOR_BLOCKED" map="612,295"/>
+      <mc key="/DOOR_CLOSED" map="649,295"/>
+      <mc key="/FAST_WASH" map="78,323"/>
+      <mc key="/MAIN_WASH" map="131,295"/>
+      <mc key="/MANUAL_MODE" map="305,323"/>
+      <mc key="/PREWASH" map="92,295"/>
+      <mc key="/PREWASH_OPTION" map="315,295"/>
+      <mc key="/RESET" map="571,323"/>
+      <mc key="/RINSE" map="168,295"/>
+      <mc key="/SET_ADD_RINSE" map="487,236"/>
+      <mc key="/SET_PREWASH" map="536,272"/>
+      <mc key="/SET_SPEED" map="582,238"/>
+      <mc key="/SET_TEMPERATURE" map="536,203"/>
+      <mc key="/SHIRTS" map="117,323"/>
+      <mc key="/SPEED" pmap="425_295_0,389_295_0,353_295_0"/>
+      <mc key="/START" map="536,235"/>
+      <mc key="/TEMPERATURE" pmap="577_295_0,538_295_0,499_295_0,465_295_0"/>
+    </boardmap>
+    <comp lib="0" loc="(100,640)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="CLK"/>
+    </comp>
+    <comp lib="0" loc="(1370,1030)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="PREWASH_OPTION"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(1370,1160)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="ADDITIONAL_RINSE_OPTION"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(1370,740)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="TEMPERATURE"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(1370,880)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="SPEED"/>
+      <a name="output" val="true"/>
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(160,160)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="START"/>
+    </comp>
+    <comp lib="0" loc="(200,1320)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="FAST_WASH"/>
+    </comp>
+    <comp lib="0" loc="(200,1340)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="SHIRTS"/>
+    </comp>
+    <comp lib="0" loc="(200,1360)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="DARK_CLOTHES"/>
+    </comp>
+    <comp lib="0" loc="(200,1380)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="DIRTY_LAUNDRY"/>
+    </comp>
+    <comp lib="0" loc="(200,1400)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="ANTIALLERGEN"/>
+    </comp>
+    <comp lib="0" loc="(2190,140)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="ANOD"/>
+      <a name="output" val="true"/>
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(2190,160)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="CATOD"/>
+      <a name="output" val="true"/>
+      <a name="width" val="7"/>
+    </comp>
+    <comp lib="0" loc="(330,750)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="SET_TEMPERATURE"/>
+    </comp>
+    <comp lib="0" loc="(340,1020)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="SET_ADD_RINSE"/>
+    </comp>
+    <comp lib="0" loc="(340,840)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="SET_SPEED"/>
+    </comp>
+    <comp lib="0" loc="(340,940)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="SET_PREWASH"/>
+    </comp>
+    <comp lib="0" loc="(600,140)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="CLOSE_OPEN_DOOR"/>
+    </comp>
+    <comp lib="0" loc="(600,180)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="RESET"/>
+    </comp>
+    <comp lib="0" loc="(600,220)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="MANUAL_MODE"/>
+    </comp>
+    <comp lib="0" loc="(820,140)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="DOOR_CLOSED"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(820,160)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="DOOR_BLOCKED"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(820,180)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="PREWASH"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(820,200)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="MAIN_WASH"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(820,220)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="RINSE"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(820,240)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="ADDITIONAL_RINSE"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="0" loc="(820,260)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="CENTRIFUGE"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp loc="(1180,1030)" name="registru_1bit">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="registru_1bit_1"/>
+    </comp>
+    <comp loc="(1180,1160)" name="registru_1bit">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="registru_1bit_2"/>
+    </comp>
+    <comp loc="(1180,740)" name="registru_4biti">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="registru_4biti_1"/>
+    </comp>
+    <comp loc="(1180,880)" name="registru_3biti">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="registru_3biti_1"/>
+    </comp>
+    <comp loc="(1380,150)" name="counter_10min">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="counter_10min_1"/>
+    </comp>
+    <comp loc="(1380,220)" name="counter_1min">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="counter_1min_1"/>
+    </comp>
+    <comp loc="(1380,300)" name="Heater">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="heater_1"/>
+    </comp>
+    <comp loc="(1380,80)" name="counter_20min">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="counter_20min_1"/>
+    </comp>
+    <comp loc="(1600,590)" name="divizor_frecventa_2sec">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="divizor_frecventa_2sec_1"/>
+    </comp>
+    <comp loc="(1810,810)" name="calculate_total_time">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="calculate_total_time_1"/>
+    </comp>
+    <comp loc="(1870,990)" name="check_can_start">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="check_can_start_1"/>
+    </comp>
+    <comp loc="(1880,450)" name="counter_delay">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="counter_delay_1"/>
+    </comp>
+    <comp loc="(1890,910)" name="calculate_temperature">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="calculate_temperature_1"/>
+    </comp>
+    <comp loc="(2160,570)" name="divizor_frecventa_1min">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="divizor_frecventa_1min_1"/>
+    </comp>
+    <comp loc="(2190,140)" name="SSD_PROIECT">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="ssd_proiect_1"/>
+    </comp>
+    <comp loc="(2410,390)" name="counter_time_left">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="counter_time_left_1"/>
+    </comp>
+    <comp loc="(2680,290)" name="MUX_2_1_7BITS">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="mux_2_1_7bits_1"/>
+    </comp>
+    <comp loc="(380,160)" name="debouncer_30ns">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="debouncer_30ns_1"/>
+    </comp>
+    <comp loc="(420,1320)" name="Encoder">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="encoder_stan_1"/>
+    </comp>
+    <comp loc="(440,490)" name="divizor_frecventa_200Hz">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="divizor_frecventa_200hz_1"/>
+    </comp>
+    <comp loc="(500,640)" name="divizor_frecventa_2sec">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="divizor_frecventa_2sec_2"/>
+      <a name="labelvisible" val="true"/>
+    </comp>
+    <comp loc="(560,1020)" name="debouncer_30ns">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="debouncer_30ns_5"/>
+    </comp>
+    <comp loc="(560,750)" name="debouncer_30ns">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="debouncer_30ns_2"/>
+    </comp>
+    <comp loc="(560,840)" name="debouncer_30ns">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="debouncer_30ns_3"/>
+    </comp>
+    <comp loc="(560,940)" name="debouncer_30ns">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="debouncer_30ns_4"/>
+    </comp>
+    <comp loc="(730,1320)" name="MEMORIE_ROM">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="memorie_rom_1"/>
+    </comp>
+    <comp loc="(820,140)" name="UC">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="uc_1"/>
+    </comp>
+    <comp loc="(860,640)" name="divizor_frecventa_1min">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="label" val="divizor_frecventa_1min_2"/>
+    </comp>
+    <wire from="(10,1440)" to="(1870,1440)"/>
+    <wire from="(10,360)" to="(10,1440)"/>
+    <wire from="(10,360)" to="(510,360)"/>
+    <wire from="(100,1040)" to="(100,1280)"/>
+    <wire from="(100,1040)" to="(340,1040)"/>
+    <wire from="(100,1280)" to="(830,1280)"/>
+    <wire from="(100,180)" to="(100,230)"/>
+    <wire from="(100,180)" to="(160,180)"/>
+    <wire from="(100,230)" to="(100,490)"/>
+    <wire from="(100,230)" to="(390,230)"/>
+    <wire from="(100,490)" to="(100,640)"/>
+    <wire from="(100,490)" to="(220,490)"/>
+    <wire from="(100,640)" to="(100,770)"/>
+    <wire from="(100,640)" to="(160,640)"/>
+    <wire from="(100,770)" to="(100,860)"/>
+    <wire from="(100,770)" to="(340,770)"/>
+    <wire from="(100,860)" to="(100,960)"/>
+    <wire from="(100,860)" to="(340,860)"/>
+    <wire from="(100,960)" to="(100,1040)"/>
+    <wire from="(100,960)" to="(340,960)"/>
+    <wire from="(1000,420)" to="(1000,590)"/>
+    <wire from="(1020,400)" to="(1020,560)"/>
+    <wire from="(1040,100)" to="(1040,280)"/>
+    <wire from="(1040,100)" to="(1160,100)"/>
+    <wire from="(1060,170)" to="(1060,300)"/>
+    <wire from="(1060,170)" to="(1160,170)"/>
+    <wire from="(1060,360)" to="(1060,420)"/>
+    <wire from="(1060,420)" to="(1450,420)"/>
+    <wire from="(1070,240)" to="(1070,320)"/>
+    <wire from="(1070,240)" to="(1160,240)"/>
+    <wire from="(1090,150)" to="(1090,220)"/>
+    <wire from="(1090,150)" to="(1160,150)"/>
+    <wire from="(1090,220)" to="(1090,640)"/>
+    <wire from="(1090,220)" to="(1160,220)"/>
+    <wire from="(1090,80)" to="(1090,150)"/>
+    <wire from="(1090,80)" to="(1160,80)"/>
+    <wire from="(1100,300)" to="(1100,340)"/>
+    <wire from="(1100,300)" to="(1160,300)"/>
+    <wire from="(1110,380)" to="(1110,400)"/>
+    <wire from="(1110,400)" to="(1280,400)"/>
+    <wire from="(1130,320)" to="(1130,540)"/>
+    <wire from="(1130,320)" to="(1160,320)"/>
+    <wire from="(1150,340)" to="(1150,690)"/>
+    <wire from="(1150,340)" to="(1160,340)"/>
+    <wire from="(1150,690)" to="(1890,690)"/>
+    <wire from="(1180,1030)" to="(1290,1030)"/>
+    <wire from="(1180,1160)" to="(1260,1160)"/>
+    <wire from="(1180,740)" to="(1350,740)"/>
+    <wire from="(1180,880)" to="(1360,880)"/>
+    <wire from="(1260,1160)" to="(1330,1160)"/>
+    <wire from="(1260,580)" to="(1260,1160)"/>
+    <wire from="(1280,400)" to="(1280,450)"/>
+    <wire from="(1280,450)" to="(1280,590)"/>
+    <wire from="(1280,450)" to="(1660,450)"/>
+    <wire from="(1280,590)" to="(1380,590)"/>
+    <wire from="(1290,1030)" to="(1340,1030)"/>
+    <wire from="(1290,600)" to="(1290,1030)"/>
+    <wire from="(1330,1080)" to="(1330,1160)"/>
+    <wire from="(1330,1080)" to="(1580,1080)"/>
+    <wire from="(1330,1160)" to="(1370,1160)"/>
+    <wire from="(1330,610)" to="(1330,710)"/>
+    <wire from="(1330,610)" to="(1380,610)"/>
+    <wire from="(1340,1030)" to="(1370,1030)"/>
+    <wire from="(1340,950)" to="(1340,1030)"/>
+    <wire from="(1340,950)" to="(1510,950)"/>
+    <wire from="(1350,740)" to="(1350,850)"/>
+    <wire from="(1350,740)" to="(1370,740)"/>
+    <wire from="(1350,850)" to="(1560,850)"/>
+    <wire from="(1360,1010)" to="(1650,1010)"/>
+    <wire from="(1360,880)" to="(1360,1010)"/>
+    <wire from="(1360,880)" to="(1370,880)"/>
+    <wire from="(1380,150)" to="(1400,150)"/>
+    <wire from="(1380,220)" to="(1420,220)"/>
+    <wire from="(1380,300)" to="(1430,300)"/>
+    <wire from="(1380,60)" to="(1380,80)"/>
+    <wire from="(1400,40)" to="(1400,150)"/>
+    <wire from="(1420,30)" to="(1420,220)"/>
+    <wire from="(1430,20)" to="(1430,300)"/>
+    <wire from="(1450,380)" to="(1450,420)"/>
+    <wire from="(1450,380)" to="(1900,380)"/>
+    <wire from="(1510,810)" to="(1510,950)"/>
+    <wire from="(1510,810)" to="(1590,810)"/>
+    <wire from="(1540,140)" to="(1540,460)"/>
+    <wire from="(1540,140)" to="(1970,140)"/>
+    <wire from="(1550,500)" to="(1550,510)"/>
+    <wire from="(1550,510)" to="(1660,510)"/>
+    <wire from="(1560,850)" to="(1560,910)"/>
+    <wire from="(1560,850)" to="(1590,850)"/>
+    <wire from="(1560,910)" to="(1560,990)"/>
+    <wire from="(1560,910)" to="(1670,910)"/>
+    <wire from="(1560,990)" to="(1650,990)"/>
+    <wire from="(1570,420)" to="(1570,480)"/>
+    <wire from="(1570,420)" to="(2000,420)"/>
+    <wire from="(1580,830)" to="(1580,1080)"/>
+    <wire from="(1580,830)" to="(1590,830)"/>
+    <wire from="(1590,180)" to="(1590,550)"/>
+    <wire from="(1590,180)" to="(1970,180)"/>
+    <wire from="(160,640)" to="(160,660)"/>
+    <wire from="(160,660)" to="(280,660)"/>
+    <wire from="(1600,590)" to="(1610,590)"/>
+    <wire from="(1610,470)" to="(1610,590)"/>
+    <wire from="(1610,470)" to="(1660,470)"/>
+    <wire from="(1610,590)" to="(1940,590)"/>
+    <wire from="(1640,490)" to="(1640,670)"/>
+    <wire from="(1640,490)" to="(1660,490)"/>
+    <wire from="(1640,670)" to="(1860,670)"/>
+    <wire from="(1650,990)" to="(1660,990)"/>
+    <wire from="(1810,810)" to="(1910,810)"/>
+    <wire from="(1810,830)" to="(1860,830)"/>
+    <wire from="(1860,670)" to="(1860,830)"/>
+    <wire from="(1870,990)" to="(1870,1440)"/>
+    <wire from="(1880,450)" to="(1930,450)"/>
+    <wire from="(1890,690)" to="(1890,910)"/>
+    <wire from="(1900,330)" to="(1900,380)"/>
+    <wire from="(1900,330)" to="(2460,330)"/>
+    <wire from="(1910,390)" to="(1910,810)"/>
+    <wire from="(1910,390)" to="(2160,390)"/>
+    <wire from="(1920,160)" to="(1920,250)"/>
+    <wire from="(1920,160)" to="(1970,160)"/>
+    <wire from="(1920,250)" to="(2680,250)"/>
+    <wire from="(1930,430)" to="(1930,450)"/>
+    <wire from="(1930,430)" to="(2190,430)"/>
+    <wire from="(1930,450)" to="(1930,570)"/>
+    <wire from="(1930,570)" to="(1940,570)"/>
+    <wire from="(1940,570)" to="(1950,570)"/>
+    <wire from="(1970,160)" to="(1980,160)"/>
+    <wire from="(20,20)" to="(1430,20)"/>
+    <wire from="(20,20)" to="(20,330)"/>
+    <wire from="(20,330)" to="(490,330)"/>
+    <wire from="(2000,420)" to="(2000,450)"/>
+    <wire from="(2000,450)" to="(2190,450)"/>
+    <wire from="(2160,290)" to="(2160,390)"/>
+    <wire from="(2160,290)" to="(2460,290)"/>
+    <wire from="(2160,390)" to="(2190,390)"/>
+    <wire from="(2160,410)" to="(2160,570)"/>
+    <wire from="(2160,410)" to="(2190,410)"/>
+    <wire from="(240,560)" to="(1020,560)"/>
+    <wire from="(240,560)" to="(240,640)"/>
+    <wire from="(240,640)" to="(280,640)"/>
+    <wire from="(2410,310)" to="(2410,390)"/>
+    <wire from="(2410,310)" to="(2460,310)"/>
+    <wire from="(2680,250)" to="(2680,290)"/>
+    <wire from="(30,30)" to="(1420,30)"/>
+    <wire from="(30,30)" to="(30,300)"/>
+    <wire from="(30,300)" to="(470,300)"/>
+    <wire from="(330,750)" to="(340,750)"/>
+    <wire from="(380,160)" to="(600,160)"/>
+    <wire from="(390,200)" to="(390,230)"/>
+    <wire from="(390,200)" to="(600,200)"/>
+    <wire from="(40,270)" to="(450,270)"/>
+    <wire from="(40,40)" to="(1400,40)"/>
+    <wire from="(40,40)" to="(40,270)"/>
+    <wire from="(420,1320)" to="(510,1320)"/>
+    <wire from="(420,240)" to="(420,250)"/>
+    <wire from="(420,240)" to="(600,240)"/>
+    <wire from="(440,490)" to="(500,490)"/>
+    <wire from="(450,260)" to="(450,270)"/>
+    <wire from="(450,260)" to="(600,260)"/>
+    <wire from="(470,280)" to="(470,300)"/>
+    <wire from="(470,280)" to="(600,280)"/>
+    <wire from="(490,320)" to="(490,330)"/>
+    <wire from="(490,320)" to="(600,320)"/>
+    <wire from="(50,250)" to="(420,250)"/>
+    <wire from="(50,60)" to="(1380,60)"/>
+    <wire from="(50,60)" to="(50,250)"/>
+    <wire from="(500,490)" to="(500,550)"/>
+    <wire from="(500,550)" to="(1590,550)"/>
+    <wire from="(500,640)" to="(530,640)"/>
+    <wire from="(510,300)" to="(510,360)"/>
+    <wire from="(510,300)" to="(600,300)"/>
+    <wire from="(530,540)" to="(1130,540)"/>
+    <wire from="(530,540)" to="(530,640)"/>
+    <wire from="(530,640)" to="(530,660)"/>
+    <wire from="(530,660)" to="(640,660)"/>
+    <wire from="(550,340)" to="(550,600)"/>
+    <wire from="(550,340)" to="(600,340)"/>
+    <wire from="(550,600)" to="(1290,600)"/>
+    <wire from="(560,1020)" to="(620,1020)"/>
+    <wire from="(560,360)" to="(560,580)"/>
+    <wire from="(560,360)" to="(600,360)"/>
+    <wire from="(560,580)" to="(1260,580)"/>
+    <wire from="(560,750)" to="(640,750)"/>
+    <wire from="(560,840)" to="(640,840)"/>
+    <wire from="(560,940)" to="(650,940)"/>
+    <wire from="(620,1020)" to="(620,1200)"/>
+    <wire from="(620,1200)" to="(960,1200)"/>
+    <wire from="(620,590)" to="(1000,590)"/>
+    <wire from="(620,590)" to="(620,640)"/>
+    <wire from="(620,640)" to="(640,640)"/>
+    <wire from="(640,750)" to="(640,780)"/>
+    <wire from="(640,780)" to="(960,780)"/>
+    <wire from="(640,840)" to="(640,920)"/>
+    <wire from="(640,920)" to="(960,920)"/>
+    <wire from="(650,1070)" to="(960,1070)"/>
+    <wire from="(650,940)" to="(650,1070)"/>
+    <wire from="(730,1320)" to="(750,1320)"/>
+    <wire from="(730,1340)" to="(790,1340)"/>
+    <wire from="(730,1360)" to="(860,1360)"/>
+    <wire from="(730,1380)" to="(890,1380)"/>
+    <wire from="(750,760)" to="(750,1320)"/>
+    <wire from="(750,760)" to="(960,760)"/>
+    <wire from="(790,900)" to="(790,1340)"/>
+    <wire from="(790,900)" to="(960,900)"/>
+    <wire from="(810,460)" to="(820,460)"/>
+    <wire from="(820,280)" to="(1040,280)"/>
+    <wire from="(820,300)" to="(1060,300)"/>
+    <wire from="(820,320)" to="(1070,320)"/>
+    <wire from="(820,340)" to="(1100,340)"/>
+    <wire from="(820,360)" to="(1060,360)"/>
+    <wire from="(820,380)" to="(1110,380)"/>
+    <wire from="(820,400)" to="(1020,400)"/>
+    <wire from="(820,420)" to="(1000,420)"/>
+    <wire from="(820,440)" to="(920,440)"/>
+    <wire from="(820,460)" to="(1540,460)"/>
+    <wire from="(820,480)" to="(1570,480)"/>
+    <wire from="(820,500)" to="(1550,500)"/>
+    <wire from="(830,1090)" to="(830,1220)"/>
+    <wire from="(830,1090)" to="(960,1090)"/>
+    <wire from="(830,1220)" to="(830,1280)"/>
+    <wire from="(830,1220)" to="(960,1220)"/>
+    <wire from="(830,710)" to="(1330,710)"/>
+    <wire from="(830,710)" to="(830,800)"/>
+    <wire from="(830,800)" to="(830,940)"/>
+    <wire from="(830,800)" to="(960,800)"/>
+    <wire from="(830,940)" to="(830,1090)"/>
+    <wire from="(830,940)" to="(960,940)"/>
+    <wire from="(860,1050)" to="(860,1360)"/>
+    <wire from="(860,1050)" to="(960,1050)"/>
+    <wire from="(860,640)" to="(1090,640)"/>
+    <wire from="(890,1180)" to="(890,1380)"/>
+    <wire from="(890,1180)" to="(960,1180)"/>
+    <wire from="(920,1030)" to="(920,1160)"/>
+    <wire from="(920,1030)" to="(960,1030)"/>
+    <wire from="(920,1160)" to="(960,1160)"/>
+    <wire from="(920,440)" to="(920,740)"/>
+    <wire from="(920,740)" to="(920,880)"/>
+    <wire from="(920,740)" to="(960,740)"/>
+    <wire from="(920,880)" to="(920,1030)"/>
+    <wire from="(920,880)" to="(960,880)"/>
+  </circuit>
+  <vhdl name="divizor_frecventa_2sec">--STAN MIHAI ALEXANDRU
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+USE ieee.std_logic_unsigned.all;
+ENTITY divizor_frecventa_2sec IS
+  PORT (
+  	EN, CLK: IN STD_LOGIC;
+  	CLK_2SEC: OUT STD_LOGIC
+    );
+END divizor_frecventa_2sec;
+
+--------------------------------------------------------------------------------
+--Complete your VHDL description below
+--------------------------------------------------------------------------------
+
+ARCHITECTURE TypeArchitecture OF divizor_frecventa_2sec IS
+
+SIGNAL AUX: STD_LOGIC := '0';
+
+BEGIN
+
+CLK_2SEC &lt;= AUX;
+
+PROCESS(EN, CLK)
+VARIABLE NR: INTEGER := 0;
+BEGIN
+	IF EN = '0' THEN
+		AUX &lt;= '0';
+		NR := 0;
+	ELSE
+		IF RISING_EDGE(CLK) THEN
+			NR := NR + 1;
+			--IF NR = 100_000_000 THEN
+			IF NR = 1_000_000 THEN
+				AUX &lt;= NOT AUX;
+				NR := 0;
+			ELSE
+				NULL;
+			END IF;
+		END IF;
+	END IF;
+END PROCESS;
+
+END TypeArchitecture;
+</vhdl>
+  <vhdl name="divizor_frecventa_1min">-- STAN MIHAI ALEXANDRU
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY divizor_frecventa_1min IS
+  PORT (
+  	EN, CLK_2SEC: IN STD_LOGIC;
+  	CLK_1MIN: OUT STD_LOGIC
+    );
+END divizor_frecventa_1min;
+
+ARCHITECTURE TypeArchitecture OF divizor_frecventa_1min IS
+SIGNAL AUX: STD_LOGIC := '0';
+
+BEGIN
+
+CLK_1MIN &lt;= AUX;
+
+PROCESS(EN, CLK_2SEC)
+VARIABLE NR: INTEGER := 0;
+BEGIN
+	IF EN = '0' THEN
+		AUX &lt;= '0';
+		NR := 0;
+	ELSE
+		IF FALLING_EDGE(CLK_2SEC) THEN
+			NR := NR + 1;
+			IF NR = 15 THEN
+				AUX &lt;= NOT AUX;
+				NR := 0;
+			ELSE
+				NULL;
+			END IF;
+		END IF;
+	END IF;
+END PROCESS;
+
+END TypeArchitecture;
+</vhdl>
+  <vhdl name="registru_4biti">--TOSA CEZAR
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY registru_4biti IS
+  PORT (
+	MODE: IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+	PL: IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+	BTN, CLK: IN STD_LOGIC;
+	Y: OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
+    );
+END registru_4biti;
+
+
+ARCHITECTURE TypeArchitecture OF registru_4biti IS
+
+SIGNAL Y_TEMP: STD_LOGIC_VECTOR(3 DOWNTO 0) := "0000";
+
+BEGIN
+
+PROCESS(CLK)
+VARIABLE WAS_ON: STD_LOGIC := '0';
+BEGIN
+	IF RISING_EDGE(CLK) THEN
+		CASE MODE IS
+			WHEN "00" =&gt; 
+				IF BTN = '1' THEN
+					WAS_ON := '1';
+				ELSE
+					NULL;
+				END IF;
+			WHEN "01" =&gt; 
+				Y_TEMP &lt;= PL;
+				WAS_ON := '0';
+			WHEN "10" =&gt; 
+				IF BTN = '0' AND WAS_ON = '1' THEN
+					IF Y_TEMP = "0000" THEN
+						Y_TEMP &lt;= "1000";
+					ELSE
+						Y_TEMP &lt;= Y_TEMP(0) &amp; Y_TEMP(3 DOWNTO 1);
+					END IF;
+					WAS_ON :='0';
+				ELSE NULL;
+				END IF;
+				IF BTN = '1' THEN
+					WAS_ON := '1';
+				ELSE
+					NULL;
+				END IF;
+			WHEN "11" =&gt; Y_TEMP &lt;= "0000";
+			WHEN OTHERS =&gt; NULL;
+		END CASE;
+	END IF;
+END PROCESS;
+
+Y &lt;= Y_TEMP;
+
+END TypeArchitecture;
+</vhdl>
+  <vhdl name="registru_3biti">--TOSA CEZAR
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY registru_3biti IS
+  PORT (
+	MODE: IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+	PL: IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+	BTN, CLK: IN STD_LOGIC;
+	Y: OUT STD_LOGIC_VECTOR(2 DOWNTO 0)
+    );
+END registru_3biti;
+
+
+ARCHITECTURE TypeArchitecture OF registru_3biti IS
+
+SIGNAL Y_TEMP: STD_LOGIC_VECTOR(2 DOWNTO 0) := "000";
+
+BEGIN
+
+PROCESS(CLK)
+VARIABLE WAS_ON: STD_LOGIC := '0';
+BEGIN
+	IF RISING_EDGE(CLK) THEN
+		CASE MODE IS
+			WHEN "00" =&gt; 
+				IF BTN = '1' THEN
+					WAS_ON := '1';
+				ELSE
+					NULL;
+				END IF;
+			WHEN "01" =&gt; 
+				Y_TEMP &lt;= PL;
+				WAS_ON := '0';
+			WHEN "10" =&gt; 
+				IF BTN = '0' AND WAS_ON = '1' THEN
+					IF Y_TEMP = "000" THEN
+						Y_TEMP &lt;= "100";
+					ELSE
+						Y_TEMP &lt;= Y_TEMP(0) &amp; Y_TEMP(2 DOWNTO 1);
+					END IF;
+					WAS_ON :='0';
+				ELSE NULL;
+				END IF;
+				IF BTN = '1' THEN
+					WAS_ON := '1';
+				ELSE
+					NULL;
+				END IF;
+			WHEN "11" =&gt; Y_TEMP &lt;= "000";
+			WHEN OTHERS =&gt; NULL;
+		END CASE;
+	END IF;
+END PROCESS;
+
+Y &lt;= Y_TEMP;
+
+END TypeArchitecture;
+</vhdl>
+  <vhdl name="UC">--TOSA CEZAR
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;
+ENTITY UC IS&#13;
+  PORT (&#13;
+	  CLOSE_OPEN_DOOR: IN STD_LOGIC;
+	  START: IN STD_LOGIC;
+	  RESET: IN STD_LOGIC;
+	  CLK: IN STD_LOGIC;
+	  MANUAL_MODE: IN STD_LOGIC;
+	  T20, T10, T1: IN STD_LOGIC;
+	  CAN_START: IN STD_LOGIC;
+	  TEMPERATURE_REACHED: IN STD_LOGIC;
+	  PREWASH, ADDITIONAL_RINSE: IN STD_LOGIC;
+	  DOOR_CLOSED: OUT STD_LOGIC;
+	  DOOR_BLOCKED: OUT STD_LOGIC;
+	  STAGE1, STAGE2, STAGE3, STAGE4, STAGE5: OUT STD_LOGIC;
+	  EN20, EN10, EN1: OUT STD_LOGIC;
+	  EN_WATER: OUT STD_LOGIC;
+	  START_PROGRAM: OUT STD_LOGIC;
+	  EN_TIME: OUT STD_LOGIC;
+	  EN_2SEC, EN_1MIN: OUT STD_LOGIC;
+	  MODE: OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
+	  MESAJ: OUT STD_LOGIC;
+	  LOAD_TIME_LEFT: OUT STD_LOGIC;
+	  LOAD_DELAY: OUT STD_LOGIC
+    );&#13;
+END UC;&#13;
+&#13;
+--------------------------------------------------------------------------------&#13;
+--Complete your VHDL description below&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+ARCHITECTURE TypeArchitecture OF UC IS&#13;
+&#13;
+TYPE STATE_T IS (INITIAL_STATE, WAITING, N1, N2, N3, N4, N5, N6, N7, N8, N9, N10, 
+			N11, N12, N13, C1, C2, C3, C4, C5, C6, C7, C8, C9);
+SIGNAL STATE, NXT_STATE: STATE_T := INITIAL_STATE;
+
+BEGIN&#13;
+
+-- SETAM URMATOAREA STARE&#13;
+PROCESS(CLK, RESET)
+BEGIN
+	IF RESET = '1' THEN STATE &lt;= INITIAL_STATE;
+	ELSE
+		IF RISING_EDGE(CLK) THEN
+			STATE &lt;= NXT_STATE;
+		END IF;
+	END IF;
+END PROCESS;
+&#13;
+
+-- STABILIM IESIRILE IN FUNCTIE DE FIECARE STARE
+PROCESS(STATE)
+BEGIN
+	DOOR_CLOSED &lt;= '0';
+	DOOR_BLOCKED &lt;= '0';
+	STAGE1 &lt;= '0';
+	STAGE2 &lt;= '0';
+	STAGE3 &lt;= '0';
+	STAGE4 &lt;= '0';
+	STAGE5 &lt;= '0';
+	EN10 &lt;= '0';
+	EN20 &lt;= '0';
+	EN1 &lt;= '0';
+	EN_WATER &lt;= '0';
+	START_PROGRAM &lt;= '0';
+	EN_TIME &lt;= '0';
+	EN_2SEC &lt;= '0';
+	EN_1MIN &lt;= '0';
+	MODE &lt;= "00";
+	MESAJ &lt;= '0';
+	LOAD_TIME_LEFT &lt;= '0';
+	LOAD_DELAY &lt;= '0';
+
+	CASE STATE IS
+		WHEN INITIAL_STATE =&gt;
+			MODE &lt;= "11";
+			
+		WHEN WAITING =&gt; 
+			NULL;
+			
+		WHEN N1 =&gt;
+			MODE &lt;= "10";
+			
+		WHEN N2 =&gt; 
+			MODE &lt;= "01";
+			
+		WHEN N3 =&gt; 
+			NULL;
+			
+		WHEN N4 =&gt;
+			DOOR_CLOSED &lt;= '1';
+
+		WHEN N5 =&gt;
+			DOOR_CLOSED &lt;= '1';
+			DOOR_BLOCKED &lt;= '1';
+			LOAD_DELAY &lt;= '1';
+			LOAD_TIME_LEFT &lt;= '1';
+			
+		WHEN N6 =&gt;
+			DOOR_CLOSED &lt;= '1';
+			START_PROGRAM &lt;= '1';
+			DOOR_BLOCKED &lt;= '1';
+			EN_TIME &lt;= '1';		
+			
+		WHEN C1 =&gt;
+			DOOR_CLOSED &lt;= '1';
+			START_PROGRAM &lt;= '1';
+			DOOR_BLOCKED &lt;= '1';
+			EN_TIME &lt;= '1';
+			EN_WATER &lt;= '1';
+			STAGE1 &lt;= '1';
+			EN_2SEC &lt;= '1';
+			
+		WHEN C2 =&gt;
+			DOOR_CLOSED &lt;= '1';
+			START_PROGRAM &lt;= '1';
+			DOOR_BLOCKED &lt;= '1';
+			EN_TIME &lt;= '1';
+			STAGE1 &lt;= '1';
+			
+		WHEN C3 =&gt;
+			DOOR_CLOSED &lt;= '1';
+			START_PROGRAM &lt;= '1';
+			DOOR_BLOCKED &lt;= '1';
+			EN_TIME &lt;= '1';
+			EN_2SEC &lt;= '1';
+			EN_1MIN &lt;= '1';
+			EN10  &lt;= '1';
+			STAGE1 &lt;= '1';
+			
+		WHEN N7 =&gt;
+			DOOR_CLOSED &lt;= '1';
+			START_PROGRAM &lt;= '1';
+			DOOR_BLOCKED &lt;= '1';
+			EN_TIME &lt;= '1';
+			
+		WHEN C4 =&gt;
+			DOOR_CLOSED &lt;= '1';
+			START_PROGRAM &lt;= '1';
+			DOOR_BLOCKED &lt;= '1';
+			EN_TIME &lt;= '1';
+			EN_WATER &lt;= '1';
+			EN_2SEC &lt;= '1';
+			STAGE2 &lt;= '1';
+			
+		WHEN C5 =&gt;
+			DOOR_CLOSED &lt;= '1';
+			START_PROGRAM &lt;= '1';
+			DOOR_BLOCKED &lt;= '1';
+			EN_TIME &lt;= '1';
+			STAGE2 &lt;= '1';
+			
+		WHEN C6 =&gt;
+			DOOR_CLOSED &lt;= '1';
+			START_PROGRAM &lt;= '1';
+			DOOR_BLOCKED &lt;= '1';
+			EN_TIME &lt;= '1';
+			EN20 &lt;= '1';
+			EN_2SEC &lt;= '1';
+			EN_1MIN &lt;= '1';
+			STAGE2 &lt;= '1';
+			
+		WHEN N8 =&gt;
+			DOOR_CLOSED &lt;= '1';
+			START_PROGRAM &lt;= '1';
+			DOOR_BLOCKED &lt;= '1';
+			EN_TIME &lt;= '1';
+			
+		WHEN C7 =&gt;
+			DOOR_CLOSED &lt;= '1';
+			START_PROGRAM &lt;= '1';
+			DOOR_BLOCKED &lt;= '1';
+			EN_TIME &lt;= '1';
+			EN_2SEC &lt;= '1';
+			EN_1MIN &lt;= '1';
+			EN10 &lt;= '1';
+			STAGE3 &lt;= '1';
+			
+		WHEN N9 =&gt;
+			DOOR_CLOSED &lt;= '1';
+			START_PROGRAM &lt;= '1';
+			DOOR_BLOCKED &lt;= '1';
+			EN_TIME &lt;= '1';
+			
+		WHEN C8 =&gt;
+			DOOR_CLOSED &lt;= '1';
+			START_PROGRAM &lt;= '1';
+			DOOR_BLOCKED &lt;= '1';
+			EN_TIME &lt;= '1';
+			EN_2SEC &lt;= '1';
+			EN_1MIN &lt;= '1';
+			EN10 &lt;= '1';
+			STAGE4 &lt;= '1';
+
+		WHEN N10 =&gt;
+			DOOR_CLOSED &lt;= '1';
+			START_PROGRAM &lt;= '1';
+			DOOR_BLOCKED &lt;= '1';
+			EN_TIME &lt;= '1';
+			
+		WHEN C9 =&gt;
+			DOOR_CLOSED &lt;= '1';
+			START_PROGRAM &lt;= '1';
+			DOOR_BLOCKED &lt;= '1';
+			EN_TIME &lt;= '1';
+			EN_2SEC &lt;= '1';
+			EN_1MIN &lt;= '1';
+			EN10 &lt;= '1';
+			STAGE5 &lt;= '1';
+			
+		WHEN N11 =&gt;
+			DOOR_CLOSED &lt;= '1';
+			START_PROGRAM &lt;= '1';
+			DOOR_BLOCKED &lt;= '1';
+			EN_TIME &lt;= '1';
+			
+		WHEN N12 =&gt;
+			DOOR_CLOSED &lt;= '1';
+			START_PROGRAM &lt;= '1';
+			DOOR_BLOCKED &lt;= '1';
+			EN_2SEC &lt;= '1';
+			EN_1MIN &lt;= '1';
+			EN1 &lt;= '1';
+			EN_TIME &lt;= '1';
+			
+		WHEN N13 =&gt;
+			DOOR_CLOSED &lt;= '1';
+			START_PROGRAM &lt;= '1';
+			MESAJ &lt;= '1';
+			
+	END CASE;
+
+END PROCESS;
+
+-- PROCESUL PENTRU STABILIREA STARII URMATOARE
+PROCESS(STATE, CLOSE_OPEN_DOOR, START, T10, T20, T1, CAN_START, TEMPERATURE_REACHED, MANUAL_MODE)
+BEGIN
+
+	CASE STATE IS
+		WHEN INITIAL_STATE =&gt;
+			NXT_STATE &lt;= WAITING;
+			
+		WHEN WAITING =&gt;
+			IF MANUAL_MODE = '1' THEN
+				NXT_STATE &lt;= N1;
+			ELSE
+				NXT_STATE &lt;= N2;
+			END IF;
+			
+		WHEN N1 =&gt;
+			NXT_STATE &lt;= N3;
+			
+		WHEN N2 =&gt;
+			NXT_STATE &lt;= N3; 
+			
+		WHEN N3 =&gt;
+			IF CLOSE_OPEN_DOOR = '1' THEN
+				NXT_STATE &lt;= N4;
+			ELSE
+				NXT_STATE &lt;= WAITING;
+			END IF;
+			
+		WHEN N4 =&gt;
+			IF START = '1' AND CAN_START = '1' THEN
+				NXT_STATE &lt;= N5;
+			ELSE
+				NXT_STATE &lt;= WAITING;
+			END IF;
+
+		WHEN N5 =&gt;
+			NXT_STATE &lt;= N6;
+			
+		WHEN N6 =&gt;
+			IF PREWASH = '1' THEN
+				NXT_STATE &lt;= C1;
+			ELSE NXT_STATE &lt;= N7;
+			END IF;
+			
+		WHEN C1 =&gt;
+			IF TEMPERATURE_REACHED = '1' THEN
+				NXT_STATE &lt;= C2;
+			ELSE
+				NXT_STATE &lt;= C1;
+			END IF;
+
+		WHEN C2 =&gt;
+			NXT_STATE &lt;= C3;
+
+		WHEN C3 =&gt;
+			IF T10 = '1' THEN 
+				NXT_STATE &lt;= N7;
+			ELSE
+				NXT_STATE &lt;= C3;
+			END IF;
+
+		WHEN N7 =&gt;
+			NXT_STATE &lt;= C4;
+
+		WHEN C4 =&gt;
+			IF TEMPERATURE_REACHED = '1' THEN
+				NXT_STATE &lt;= C5;
+			ELSE
+				NXT_STATE &lt;= C4;
+			END IF;
+
+		WHEN C5 =&gt;
+			NXT_STATE &lt;= C6;
+
+		WHEN C6 =&gt;
+			IF T20 = '1' THEN 
+				NXT_STATE &lt;= N8;
+			ELSE
+				NXT_STATE &lt;= C6;
+			END IF;
+
+		WHEN N8 =&gt;
+			NXT_STATE &lt;= C7;
+
+		WHEN C7 =&gt;
+			IF T10 = '1' THEN
+				NXT_STATE &lt;= N9;
+			ELSE
+				NXT_STATE &lt;= C7;
+			END IF;
+
+		WHEN N9 =&gt;
+			IF ADDITIONAL_RINSE = '1' THEN
+				NXT_STATE &lt;= C8;
+			ELSE
+				NXT_STATE &lt;= N10;
+			END IF;
+
+		WHEN C8 =&gt;
+			IF T10 = '1' THEN
+				NXT_STATE &lt;= N10;
+			ELSE
+				NXT_STATE &lt;= C8;
+			END IF;
+
+		WHEN N10 =&gt;
+			NXT_STATE &lt;= C9;
+
+		WHEN C9 =&gt;
+			IF T10 = '1' THEN
+				NXT_STATE &lt;= N11;
+			ELSE
+				NXT_STATE &lt;= C9;
+			END IF;
+
+		WHEN N11 =&gt;
+			NXT_STATE &lt;= N12;
+
+		WHEN N12 =&gt;
+			IF T1 = '1' THEN
+				NXT_STATE &lt;= N13;
+			ELSE
+				NXT_STATE &lt;= N12;
+			END IF;
+
+		WHEN N13 =&gt;
+			IF CLOSE_OPEN_DOOR = '1' THEN
+				NXT_STATE &lt;= N13;
+			ELSE
+				NXT_STATE &lt;= INITIAL_STATE;
+			END IF;
+			
+	END CASE;
+			
+				
+
+END PROCESS;
+
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="counter_1min">--STAN MIHAI ALEXANDRU
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;USE ieee.std_logic_unsigned.all;
+ENTITY counter_1min IS&#13;
+  PORT (&#13;
+  	CLK_1MIN: IN STD_LOGIC;
+  	EN_1MIN: IN STD_LOGIC;
+  	T1: OUT STD_LOGIC
+    );&#13;
+END counter_1min;&#13;
+&#13;
+
+ARCHITECTURE TypeArchitecture OF counter_1min IS&#13;
+&#13;
+BEGIN&#13;
+&#13;
+PROCESS(CLK_1MIN, EN_1MIN)
+VARIABLE NR: STD_LOGIC := '0';
+BEGIN
+
+	IF EN_1MIN = '0' THEN
+		NR := '0';
+		T1 &lt;= '0';
+	ELSE 
+		IF FALLING_EDGE(CLK_1MIN) THEN
+			NR := not NR;
+			IF NR = '1' THEN
+				T1 &lt;= '1';
+				NR := '0';
+			ELSE
+				T1 &lt;= '0';
+			END IF;
+		END IF;
+	END IF;
+
+END PROCESS;
+
+
+&#13;
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="MEMORIE_ROM">--TOSA CEZAR
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;
+ENTITY MEMORIE_ROM IS&#13;
+  PORT (&#13;
+  	PROGRAM_SELECTED: IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+  	PROGRAM_TEMPERATURE: OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+  	PROGRAM_SPEED: OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
+  	PROGRAM_PREWASH: OUT STD_LOGIC;
+  	PROGRAM_ADDITIONAL_RINSE: OUT STD_LOGIC
+    );&#13;
+END MEMORIE_ROM;&#13;
+&#13;
+
+ARCHITECTURE TypeArchitecture OF MEMORIE_ROM IS&#13;
+&#13;
+TYPE MEMORIE_ROM IS ARRAY(7 DOWNTO 0) OF STD_LOGIC_VECTOR(8 DOWNTO 0);
+CONSTANT MEM: MEMORIE_ROM := ("000000000", "000000000", "000000000", "000100101",
+						"010001010", "010001001", "001010000", "100000100");
+
+SIGNAL MY_MEM: MEMORIE_ROM := ( OTHERS =&gt; "000000000");
+
+SIGNAL SPEED_AUX: STD_LOGIC_VECTOR(3 DOWNTO 0);
+SIGNAL CHARACTERISTICS: STD_LOGIC_VECTOR(8 DOWNTO 0) := (OTHERS =&gt; '0');
+BEGIN&#13;
+&#13;
+MY_MEM &lt;= MEM;
+
+PROCESS(PROGRAM_SELECTED)
+BEGIN
+	CASE PROGRAM_SELECTED IS
+		WHEN "000" =&gt; CHARACTERISTICS &lt;= MY_MEM(0);
+		WHEN "001" =&gt; CHARACTERISTICS &lt;= MY_MEM(1);
+		WHEN "010" =&gt; CHARACTERISTICS &lt;= MY_MEM(2);
+		WHEN "011" =&gt; CHARACTERISTICS &lt;= MY_MEM(3);
+		WHEN "100" =&gt; CHARACTERISTICS &lt;= MY_MEM(4);
+		WHEN "101" =&gt; CHARACTERISTICS &lt;= MY_MEM(5);
+		WHEN "110" =&gt; CHARACTERISTICS &lt;= MY_MEM(6);
+		WHEN "111" =&gt; CHARACTERISTICS &lt;= MY_MEM(7);
+		WHEN OTHERS =&gt; CHARACTERISTICS &lt;= (OTHERS =&gt; '0');
+	END CASE;
+END PROCESS;
+
+PROGRAM_TEMPERATURE &lt;= CHARACTERISTICS(8 DOWNTO 5);
+PROGRAM_SPEED &lt;= CHARACTERISTICS(4 DOWNTO 2);
+PROGRAM_PREWASH &lt;= CHARACTERISTICS(1);
+PROGRAM_ADDITIONAL_RINSE &lt;= CHARACTERISTICS(0); 
+&#13;
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="registru_1bit">--TOSA CEZAR
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;
+ENTITY registru_1bit IS&#13;
+  PORT (&#13;
+ 	MODE: IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+	PL: IN STD_LOGIC;
+	BTN, CLK: IN STD_LOGIC;
+	Y: OUT STD_LOGIC
+    );&#13;
+END registru_1bit;&#13;
+&#13;
+ARCHITECTURE TypeArchitecture OF registru_1bit IS&#13;
+&#13;
+SIGNAL Y_AUX: STD_LOGIC := '0';
+
+BEGIN&#13;
+
+Y &lt;= Y_AUX;
+
+&#13;PROCESS(CLK)
+VARIABLE WAS_ON: STD_LOGIC := '0';
+BEGIN
+	IF RISING_EDGE(CLK) THEN
+		CASE MODE IS
+			WHEN "00" =&gt; 
+				IF BTN = '1' THEN
+					WAS_ON := '1';
+				ELSE
+					NULL;
+				END IF;
+			WHEN "01" =&gt; 
+				Y_AUX &lt;= PL;
+				WAS_ON := '0';
+			WHEN "10" =&gt; 
+				IF BTN = '0' AND WAS_ON = '1' THEN
+					Y_AUX &lt;= NOT Y_AUX;
+					WAS_ON :='0';
+				ELSE NULL;
+				END IF;
+				IF BTN = '1' THEN
+					WAS_ON := '1';
+				ELSE
+					NULL;
+				END IF;
+			WHEN "11" =&gt; Y_AUX &lt;= '0';
+			WHEN OTHERS =&gt; Y_AUX &lt;= '0';
+		END CASE;
+	END IF;
+END PROCESS;
+&#13;
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="counter_time_left">--TOSA CEZAR
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+USE ieee.std_logic_unsigned.all;
+
+&#13;
+ENTITY counter_time_left IS&#13;
+  PORT (&#13;
+  TOTAL_TIME: IN STD_LOGIC_VECTOR(6 DOWNTO 0);
+  CLK_1MIN, EN_TIME: IN STD_LOGIC;
+  LOAD: IN STD_LOGIC;
+  TIME_LEFT: OUT STD_LOGIC_VECTOR(6 DOWNTO 0)
+    );&#13;
+END counter_time_left;&#13;
+&#13;
+
+ARCHITECTURE TypeArchitecture OF counter_time_left IS&#13;
+&#13;
+SIGNAL EN: STD_LOGIC := '0';
+
+BEGIN&#13;
+
+&#13;PROCESS(CLK_1MIN, EN_TIME, LOAD)
+VARIABLE AUX: STD_LOGIC_VECTOR(6 DOWNTO 0) := (OTHERS =&gt; '0');
+BEGIN
+	IF EN_TIME = '0' THEN
+		IF LOAD = '1' THEN
+			AUX := TOTAL_TIME;
+			TIME_LEFT &lt;= TOTAL_TIME;
+		ELSE
+			NULL;
+		END IF;
+	ELSE
+		IF FALLING_EDGE(CLK_1MIN) THEN
+			IF AUX /= 0 THEN
+				AUX := AUX - 1;
+			ELSE
+				NULL;
+			END IF;
+			TIME_LEFT &lt;= AUX;
+		END IF;
+	END IF;
+END PROCESS;
+			
+&#13;
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="MUX_2_1_7BITS">-- STAN MIHAI ALEXANDRU
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;
+ENTITY MUX_2_1_7BITS IS&#13;
+  PORT (&#13;
+  	TOTAL_TIME, TIME_LEFT: IN STD_LOGIC_VECTOR(6 DOWNTO 0);
+  	START_PROGRAM: IN STD_LOGIC;
+  	TIME_FOR_SSD: OUT STD_LOGIC_VECTOR(6 DOWNTO 0)
+    );&#13;
+END MUX_2_1_7BITS;&#13;
+&#13;
+--------------------------------------------------------------------------------&#13;
+--Complete your VHDL description below&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+ARCHITECTURE TypeArchitecture OF MUX_2_1_7BITS IS&#13;
+&#13;
+BEGIN&#13;
+&#13;with START_PROGRAM select TIME_FOR_SSD &lt;=
+TOTAL_TIME when '0',
+TIME_LEFT when '1',
+(OTHERS =&gt; '0') WHEN OTHERS;
+
+
+&#13;
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="calculate_total_time">-- STAN MIHAI ALEXANDRU
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;USE ieee.std_logic_unsigned.all;
+ENTITY calculate_total_time IS&#13;
+  PORT (&#13;
+  	PREWASH, ADDITIONAL_RINSE: IN STD_LOGIC;
+  	TEMPERATURE: IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+  	TOTAL_TIME: OUT STD_LOGIC_VECTOR(6 DOWNTO 0);
+  	DELAY: OUT STD_LOGIC_VECTOR(5 DOWNTO 0)
+    );&#13;
+END calculate_total_time;&#13;
+&#13;
+--------------------------------------------------------------------------------&#13;
+--Complete your VHDL description below&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+ARCHITECTURE TypeArchitecture OF calculate_total_time IS
+
+BEGIN&#13;
+
+--TOTAL_TIME &lt;= AUX_TOTAL_TIME;
+--DELAY &lt;= AUX_DELAY;
+
+
+
+
+
+&#13;PROCESS(PREWASH, ADDITIONAL_RINSE, TEMPERATURE)
+VARIABLE AUX_TOTAL_TIME: STD_LOGIC_VECTOR(6 DOWNTO 0) := (OTHERS =&gt; '0');
+VARIABLE AUX_DELAY: STD_LOGIC_VECTOR(5 DOWNTO 0) := (OTHERS =&gt; '0');
+BEGIN
+	AUX_TOTAL_TIME := (OTHERS =&gt; '0');
+	AUX_TOTAL_TIME := AUX_TOTAL_TIME + 40;
+	AUX_DELAY := (OTHERS =&gt; '0');
+	&#13;IF PREWASH = '1' THEN
+		AUX_TOTAL_TIME := AUX_TOTAL_TIME + 10;
+	ELSE
+		NULL;
+	END IF;
+	
+	IF ADDITIONAL_RINSE = '1' THEN
+		AUX_TOTAL_TIME := AUX_TOTAL_TIME + 10;
+	ELSE
+		NULL;
+	END IF;
+
+	CASE TEMPERATURE IS
+		WHEN "0001" =&gt;
+			AUX_TOTAL_TIME := AUX_TOTAL_TIME + 2;
+			AUX_DELAY := AUX_DELAY + 30;
+			IF PREWASH = '1' THEN
+				AUX_TOTAL_TIME := AUX_TOTAL_TIME + 3;
+				AUX_DELAY := (OTHERS =&gt; '0');
+			ELSE
+				NULL;
+			END IF;
+			
+		WHEN "0010" =&gt;
+			AUX_TOTAL_TIME := AUX_TOTAL_TIME + 1;
+			AUX_DELAY := AUX_DELAY + 30;
+			IF PREWASH = '1' THEN
+				 AUX_TOTAL_TIME := AUX_TOTAL_TIME + 2;
+				AUX_DELAY := (OTHERS =&gt; '0');
+			ELSE
+				NULL;
+			END IF;
+			
+		WHEN "0100" =&gt;
+			AUX_DELAY := AUX_DELAY + 50;
+			IF PREWASH = '1' THEN
+				 AUX_TOTAL_TIME := AUX_TOTAL_TIME + 1;
+				AUX_DELAY := AUX_DELAY - 10;
+			ELSE
+				NULL;
+			END IF;
+			
+		WHEN "1000" =&gt;
+			AUX_DELAY := AUX_DELAY + 30;
+			IF PREWASH = '1' THEN
+				 AUX_TOTAL_TIME := AUX_TOTAL_TIME + 1;
+				AUX_DELAY := (OTHERS =&gt; '0');
+			ELSE
+				NULL;
+			END IF;
+			
+		WHEN OTHERS =&gt;
+			AUX_TOTAL_TIME := (OTHERS =&gt; '0');
+			AUX_DELAY := (OTHERS =&gt; '0');
+	END CASE;
+
+	TOTAL_TIME &lt;= AUX_TOTAL_TIME;
+	DELAY &lt;= AUX_DELAY;
+	
+END PROCESS;
+	
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="calculate_temperature">--TOSA CEZAR
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;USE ieee.std_logic_unsigned.all;
+ENTITY calculate_temperature IS&#13;
+  PORT (&#13;
+  	temp_mode: IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+  	TEMPERATURE: OUT STD_LOGIC_VECTOR(6 DOWNTO 0)
+    );&#13;
+END calculate_temperature;&#13;
+&#13;
+--------------------------------------------------------------------------------&#13;
+--Complete your VHDL description below&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+ARCHITECTURE TypeArchitecture OF calculate_temperature IS&#13;
+SIGNAL TEMP_AUX: STD_LOGIC_VECTOR(6 DOWNTO 0);&#13;
+BEGIN&#13;
+&#13;	WITH TEMP_MODE SELECT TEMPERATURE &lt;=
+			"0011110" WHEN "1000",
+			"0101000" WHEN "0100",
+			"0111100" WHEN "0010",
+			"1011010" WHEN "0001",
+			"0000000" WHEN OTHERS;
+	
+&#13;
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="counter_delay">--TOSA CEZAR
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;USE ieee.std_logic_unsigned.all;
+ENTITY counter_delay IS&#13;
+  PORT (&#13;
+  	EN: IN STD_LOGIC;
+	CLK_2SEC: IN STD_LOGIC;
+	DELAY: IN STD_LOGIC_VECTOR(5 DOWNTO 0);
+	LOAD_DELAY: IN STD_LOGIC;
+	Y: OUT STD_LOGIC
+ );&#13;
+END counter_delay;&#13;
+&#13;
+ARCHITECTURE TypeArchitecture OF counter_delay IS&#13;
+&#13;
+SIGNAL EN1: STD_LOGIC;
+
+BEGIN&#13;
+
+PROCESS(CLK_2SEC, EN, LOAD_DELAY)
+VARIABLE AUX: STD_LOGIC_VECTOR(5 DOWNTO 0) := (OTHERS =&gt; '0');&#13;
+&#13;BEGIN
+	IF EN = '0' THEN
+		IF LOAD_DELAY = '1' THEN
+			AUX := DELAY;
+			Y &lt;= '0';
+		ELSE
+			NULL;
+		END IF;
+	ELSE
+		IF DELAY = "000000" THEN
+			Y &lt;= '1';
+		ELSE
+			IF FALLING_EDGE(CLK_2SEC) THEN
+				IF AUX /= 0 THEN
+					AUX := AUX - 2;
+				ELSE
+					NULL;
+				END IF;
+				IF AUX = 0 THEN
+					Y &lt;=	'1';
+				ELSE
+					Y &lt;= '0';
+				END IF;
+			END IF;
+		END IF;
+	END IF;
+END PROCESS;
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="check_can_start">--TOSA CEZAR
+LIBRARY ieee;&#13;
+USE ieee.std_logic_1164.all;&#13;
+&#13;USE ieee.std_logic_unsigned.all;
+
+
+ENTITY check_can_start IS&#13;
+  PORT (&#13;
+ 	TEMPERATURE: IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+ 	SPEED: IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+ 	CAN_START: OUT STD_LOGIC
+    );&#13;
+END check_can_start;&#13;
+&#13;
+ARCHITECTURE TypeArchitecture OF check_can_start IS&#13;
+&#13;
+BEGIN&#13;
+PROCESS&#13;(TEMPERATURE, SPEED)
+BEGIN	
+	IF TEMPERATURE /= 0 AND SPEED /= 0 THEN
+		CAN_START &lt;= '1';
+	ELSE
+		CAN_START &lt;= '0';
+	END IF;
+END PROCESS;
+
+END TypeArchitecture;&#13;
+</vhdl>
+  <vhdl name="SSD_PROIECT">-- STAN MIHAI ALEXANDRU
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity SSD_PROIECT is
+    port (
+    		      Mesaj: in std_logic;
+        input : in std_logic_vector(6 downto 0);
+        CLK: in std_logic;
+        anod: out std_logic_vector(3 downto 0);
+        catod : out std_logic_vector(6 downto 0)
+    );
+end SSD_PROIECT;
+
+architecture structural of SSD_PROIECT is
+
+component convertor is
+	port(
+	number : in std_logic_vector(6 downto 0);
+        d0,d1 : out std_logic_vector(3 downto 0)
+    );
+end component;
+
+
+signal count : std_logic_vector(1 downto 0) := "00";
+signal input_decoder: std_logic_vector(3 downto 0);
+signal d0,d1,d2,d3: std_logic_vector(3 downto 0);
+
+begin
+
+	C1: convertor port map(input,d0,d1);
+	d2 &lt;= "0000";
+	d3 &lt;= "0000";
+	process(clk)
+	begin
+	--if rising_edge(clk) then
+	if rising_edge(clk) then 
+		count&lt;=count+1;
+	end if;
+	end process;
+
+--Anozi
+	process(count)
+	begin
+	case count is
+	when "00" =&gt; anod &lt;="0001";
+	when "01" =&gt; anod &lt;="0010";
+	when "10" =&gt; anod &lt;="0100";
+	when "11" =&gt; anod &lt;= "1000";
+	when others =&gt; anod &lt;="0000";
+	end case;
+
+	end process;
+
+-- pentru digits
+	process(count,d0,d1,d2,d3)
+	BEGIN
+	if Mesaj = '0' then
+	case count is
+	when "00" =&gt; input_decoder &lt;= d1;
+	when "01" =&gt; input_decoder &lt;= d0;
+	when "10" =&gt; input_decoder &lt;= d2;
+	when others =&gt; input_decoder &lt;= d3;
+	end case;
+	else
+		case count is
+	when "00" =&gt; input_decoder &lt;="0001";
+	when "01" =&gt; input_decoder &lt;="0010";
+	when "10" =&gt; input_decoder &lt;="0100";
+	when "11" =&gt; input_decoder &lt;= "1000";
+	when others =&gt; input_decoder &lt;="0000";
+	end case;
+	end if;
+	end process;
+	
+	process(input_decoder)
+	begin
+	if Mesaj = '0' then
+		case input_decoder is
+		when "0000" =&gt; catod &lt;= "0111111";  -- 0
+        when "0001" =&gt; catod &lt;= "0000110";  -- 1
+        when "0010" =&gt; catod &lt;= "1011011";  -- 2
+        when "0011" =&gt; catod &lt;= "1001111";  -- 3
+        when "0100" =&gt; catod &lt;= "1100110";  -- 4
+        when "0101" =&gt; catod &lt;= "1101101";  -- 5
+        when "0110" =&gt; catod &lt;= "1111101";  -- 6
+        when "0111" =&gt; catod &lt;= "0000111";  -- 7
+        when "1000" =&gt; catod &lt;= "1111111";  -- 8
+        when "1001" =&gt; catod &lt;= "1101111";  -- 9
+        when others =&gt; catod &lt;= "1111111";  -- default to all segments off
+		end case;
+	else 
+		case input_decoder is
+        when "0001" =&gt; catod &lt;= "0000000";  
+        when "0010" =&gt; catod &lt;= "1011110";  
+        when "0100" =&gt; catod &lt;= "1010100";  
+        when "1000" =&gt; catod &lt;= "1111001";  
+        when others =&gt; catod &lt;= "1111111";  
+        end case;
+		end if;
+		end process;
+	
+end structural;
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+entity convertor is
+    port (	
+        number : in std_logic_vector(6 downto 0);
+        d0,d1 : out std_logic_vector(3 downto 0)
+    );
+end entity;
+
+architecture doamneee of convertor is
+    signal ten : integer := 10;
+    signal numar, digit1, digit2: INTEGER;
+begin
+
+    NUMAR &lt;= to_integer(unsigned(number));
+    digit1 &lt;= NUMAR/ten;
+    digit2 &lt;= NUMAR MOD ten;
+    d0 &lt;= std_logic_vector(to_unsigned(digit1, d0'length));
+    d1 &lt;= std_logic_vector(to_unsigned(digit2, d1'length));
+
+end architecture;
+
+
+
+	
+	</vhdl>
+  <vhdl name="Encoder">-- STAN MIHAI ALEXANDRU
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY Encoder IS
+  PORT (
+ 	A0: in std_logic;
+ 	A1: in std_logic;
+ 	A2: in std_logic;
+ 	A3: in std_logic;
+ 	A4: in std_logic;
+ 	ENCODED: out STD_logic_vector(2 downto 0)
+    );
+END Encoder;
+
+--------------------------------------------------------------------------------
+--Complete your VHDL description below
+--------------------------------------------------------------------------------
+
+ARCHITECTURE TypeArchitecture OF Encoder IS
+
+BEGIN
+
+	process(A0,A1,A2,A3,A4)
+	BEGIN
+	if A0 = '1' then
+	ENCODED &lt;= "000";
+	elsif A1 = '1' then
+	ENCODED &lt;= "001";
+	elsif A2 = '1' then
+		ENCODED &lt;= "010";
+	elsif A3 = '1' then
+		ENCODED &lt;= "011";
+	elsif A4 = '1' then
+		ENCODED &lt;= "100";
+	else
+		ENCODED &lt;= "111";
+	end if;
+	end process;
+END TypeArchitecture;
+
+
+
+
+</vhdl>
+  <vhdl name="divizor_frecventa_200Hz">-- STAN MIHAI ALEXANDRU
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity divizor_frecventa_200Hz is
+    Port (
+        clk_in : in  STD_LOGIC;
+        clk_out: out STD_LOGIC
+    );
+end divizor_frecventa_200Hz;
+
+architecture Behavioral of divizor_frecventa_200Hz is
+    signal temporal: STD_LOGIC;
+    signal counter : integer range 0 to 124999 := 0;
+begin
+    frequency_divider: process (clk_in) begin
+        if rising_edge(clk_in) then
+            if (counter = 124999) then
+                temporal &lt;= NOT(temporal);
+                counter &lt;= 0;
+            else
+                counter &lt;= counter + 1;
+            end if;
+         end if;
+    end process;
+    
+    clk_out &lt;= temporal;
+end Behavioral;</vhdl>
+  <vhdl name="debouncer_30ns">-- STAN MIHAI ALEXANDRU
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY debouncer_30ns IS
+  PORT (
+  BTN, CLK_100MHZ: IN STD_LOGIC;
+  BTN_DIS: OUT STD_LOGIC
+    );
+END debouncer_30ns;
+
+ARCHITECTURE DEBOUNCER OF debouncer_30ns IS
+
+COMPONENT bistabil IS
+  PORT (
+    CLK, D: IN STD_LOGIC;
+    Q: OUT STD_LOGIC
+    );
+END COMPONENT;
+
+SIGNAL Q0: STD_LOGIC := '0';
+SIGNAL Q1: STD_LOGIC := '0';
+SIGNAL Q2: STD_LOGIC := '0';
+BEGIN
+
+D3: bistabil PORT MAP(CLK_100MHZ, Q1, Q2);
+D2: bistabil PORT MAP(CLK_100MHZ, Q0, Q1);
+D1: bistabil PORT MAP(CLK_100MHZ, BTN, Q0);
+BTN_DIS &lt;= (Q0 AND Q1) AND Q2;
+
+END DEBOUNCER;
+
+
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY bistabil IS
+  PORT (
+    CLK, D: IN STD_LOGIC;
+    Q: OUT STD_LOGIC
+    );
+END bistabil;
+
+ARCHITECTURE comportamental OF bistabil IS
+
+BEGIN
+
+PROCESS(CLK)
+BEGIN
+    IF RISING_EDGE(CLK) THEN
+        Q &lt;= D;
+    END IF;
+END PROCESS;
+
+END comportamental;</vhdl>
+  <vhdl name="Heater">-- STAN MIHAI ALEXANDRU
+
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+ENTITY Heater IS
+  PORT (
+	EN_WATER: in std_logic;
+	CLK_2SEC: in std_logic;
+	TEMP: in std_logic_vector(6 downto 0);
+	TEMPERATURE: out std_logic
+    );
+END Heater;
+
+
+ARCHITECTURE TypeArchitecture OF Heater IS
+signal counter: std_logic_vector(6 downto 0) := "0001111";
+BEGIN
+	
+process(EN_WATER,CLK_2SEC)
+	BEGIN
+	if EN_WATER = '0' then
+		TEMPERATURE &lt;= '0';
+		counter &lt;= "0001111";
+	else
+		
+	if rising_edge(CLK_2SEC) and EN_WATER = '1' then
+		counter &lt;= counter + 1;
+	if counter = TEMP then
+		TEMPERATURE &lt;= '1';
+	else
+		TEMPERATURE &lt;= '0';
+	end if;
+	end if;	
+	end if;	
+	end process;
+
+END TypeArchitecture;
+</vhdl>
+  <vhdl name="counter_10min">------------------------------------------------------------------
+-- STAN MIHAI ALEXANDRU
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+ENTITY counter_10min IS
+  PORT (
+	CLK_1MIN: in std_logic;
+  	EN10: in std_logic;
+  	T10: out std_logic
+    );
+END counter_10min;
+
+--------------------------------------------------------------------------------
+--Complete your VHDL description below
+--------------------------------------------------------------------------------
+
+ARCHITECTURE TypeArchitecture OF counter_10min IS
+
+
+
+BEGIN
+
+	process(CLK_1MIN,EN10)
+	variable counter: INTEGER := 0;
+	BEGIN
+	if EN10 = '0' then
+		counter := 0;
+		T10 &lt;= '0';
+	else
+		if falling_edge(CLK_1MIN) then
+			counter := counter + 1;
+			if counter = 10 then
+				counter := 0;
+				T10 &lt;= '1';
+			else
+				T10 &lt;= '0';
+			end if;
+		end if;
+	end if;
+	end process;
+
+END TypeArchitecture;
+</vhdl>
+  <vhdl name="counter_20min">------------------------------------------------------------------
+-- STAN MIHAI ALEXANDRU
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+ENTITY counter_20min IS
+  PORT (
+	CLK_1MIN: in std_logic;
+  	EN20: in std_logic;
+  	T20: out std_logic
+    );
+END counter_20min;
+
+--------------------------------------------------------------------------------
+--Complete your VHDL description below
+--------------------------------------------------------------------------------
+
+ARCHITECTURE TypeArchitecture OF counter_20min IS
+
+
+
+BEGIN
+
+	process(CLK_1MIN,EN20)
+	variable counter: INTEGER := 0;
+	BEGIN
+	if EN20 = '0' then
+		counter := 0;
+		T20 &lt;= '0';
+	else
+		if falling_edge(CLK_1MIN) then
+			counter := counter + 1;
+			if counter = 20 then
+				counter := 0;
+				T20 &lt;= '1';
+			else
+				T20 &lt;= '0';
+			end if;
+		end if;
+	end if;
+	end process;
+
+END TypeArchitecture;
+</vhdl>
+</project>
